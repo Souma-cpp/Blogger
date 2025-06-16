@@ -1,0 +1,21 @@
+{
+  "name": "blogger",
+  "version": "1.0.0",
+  "description": "this is the basic blog application made with Express , Node and EJS , able to handle the CRUD operations smoothly",
+  "license": "ISC",
+  "author": "SoumadityaDey",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "method-override": "^3.0.0",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  }
+}

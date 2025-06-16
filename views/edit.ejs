@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--meta-->
+  </head>
+  <body>
+    <h1>Edit Post</h1>
+    <form action="/update/<%= id %>?_method=PATCH" method="POST">
+      <input name="title" value="<%= post.title %>" /><br />
+      <input name="author" value="<%= post.author %>" /><br />
+      <textarea name="content"><%= post.content %></textarea><br />
+      <button>Save</button>
+    </form>
+  </body>
+</html>
